@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f7f7f7;
+    /* color: white; */
+}
+#mainDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 420px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+.member{
+    /* border:1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    text-align: center;
+    /* display: flex; */
+}
+#head{
+    text-align: center;
+}
+#roll{
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 68, 0, 0.905);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    /* text-align: center; */
+}
+#roll:hover{
+    cursor: pointer;
+    background-color: rgb(255, 68, 0);
+}
+#btnDiv{
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    width: 150px;
+    padding: 5px;
+}
+#winner{
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
